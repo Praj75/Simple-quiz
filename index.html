@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="picc.jpg" alt="">
+    <div class="quiz-container">
+        <div class="question">Question 1: What is the capital of France?</div>
+        <div class="options">
+            <div class="option"><input type="radio" name="q1" value="Paris"> Paris</div>
+            <div class="option"><input type="radio" name="q1" value="Berlin"> Berlin</div>
+            <div class="option"><input type="radio" name="q1" value="Rome"> Rome</div>
+            <div class="option"><input type="radio" name="q1" value="Madrid"> Madrid</div>
+        </div>
+        
+        <div class="question">Question 2: What is the capital of Japan?</div>
+        <div class="options">
+            <div class="option"><input type="radio" name="q2" value="Beijing"> Beijing</div>
+            <div class="option"><input type="radio" name="q2" value="Seoul"> Seoul</div>
+            <div class="option"><input type="radio" name="q2" value="Tokyo"> Tokyo</div>
+            <div class="option"><input type="radio" name="q2" value="Bangkok"> Bangkok</div>
+        </div>
+
+        <div class="question">Question 3: What is the currency of India?</div>
+        <div class="options">
+            <div class="option"><input type="radio" name="q3" value="Rupee"> Rupee</div>
+            <div class="option"><input type="radio" name="q3" value="Euro"> Euro</div>
+            <div class="option"><input type="radio" name="q3" value="Dollar"> Dollar</div>
+            <div class="option"><input type="radio" name="q3" value="Yen"> Yen</div>
+        </div>
+
+        <div class="question">Question 4: What is the largest planet in our solar system?</div>
+        <div class="options">
+            <div class="option"><input type="radio" name="q4" value="Mercury"> Mercury</div>
+            <div class="option"><input type="radio" name="q4" value="Venus"> Venus</div>
+            <div class="option"><input type="radio" name="q4" value="Earth"> Earth</div>
+            <div class="option"><input type="radio" name="q4" value="Jupiter"> Jupiter</div>
+        </div>
+
+        <div class="question">Question 5: What is the chemical symbol for water?</div>
+        <div class="options">
+            <div class="option"><input type="radio" name="q5" value="H2O"> H<sub>2</sub>O</div>
+            <div class="option"><input type="radio" name="q5" value="CO2"> CO<sub>2</sub></div>
+            <div class="option"><input type="radio" name="q5" value="O2"> O<sub>2</sub></div>
+            <div class="option"><input type="radio" name="q5" value="H"> H</div>
+        </div>
+
+        <button onclick="submitQuiz()" class="btn">Submit</button>
+        <button onclick="resetQuiz()" class="btn">Reset</button>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
